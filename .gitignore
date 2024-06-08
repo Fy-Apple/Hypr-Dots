@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Allow specific directories and files
+!.gitignore
+!.config/
+!.config/**
+!.local/
+!.local/share/
+!.local/share/fcitx5/
+!.local/share/fcitx5/themes/
+!.local/share/fcitx5/themes/** 
+!.zshrc
+!.bashrc
+!install.sh
+
+# test
+!test/
+!test/**

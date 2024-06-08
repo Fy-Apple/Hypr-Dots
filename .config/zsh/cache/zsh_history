@@ -1,0 +1,298 @@
+curl -sS https://starship.rs/install.sh | sh
+starship preset tokyo-night -o ~/.config/starship.toml
+nvim ~/.config/starship.toml
+starship
+starship -h
+sodu reboot
+sudo reboot
+sudo nala search tldr
+sudo nala install tldr
+tldr --update
+tldr kill
+chsh -s /usr/bin/zsh
+$SHELL
+$shell
+export DISPLAY
+eval "$(starship init zsh)"
+cp ~/.zshrc ~/.zshrc.bak
+zsh
+man
+man kill
+sudo nala search yazi
+wget https://github.com/sxyazi/yazi/releases/download/v0.2.5/yazi-x86_64-unknown-linux-musl.zip
+ouch d yazi-x86_64-unknown-linux-musl.zip
+cd yazi-x86_64-unknown-linux-musl
+./yazi
+bat README.md
+which file
+jq
+sudo mv yazi /usr/local/bin/
+./ya
+ya -h
+./ya -h
+./ya help
+head -n 10 ya
+file ya
+file yazi
+./ya --help
+sudo mv ya /usr/local/bin/
+ya
+ya pub sss
+ya pub "aa"
+ya --helo q
+ya --help q
+ya --help pub
+z d
+y
+z Do
+nvim MyConfig/.config/zsh/fzf-tab.zsh 
+ouch d wallpaper.zip
+cd
+cd sfs
+nvim Downloads/MyConfig/.config/zsh/alias.zsh 
+cd ss
+touch ~/.config/yazi/yazi.toml
+touch ~/.config/yazi/keymap.toml
+touch ~/.config/yazi/theme.toml
+sudo nala search ueberzug
+sudo nala ueberzug ueberzug
+sudo nala install ueberzug
+gnome-tweaks
+sudo nala search Ãƒ¼berzug++
+sudo nala search berzug++
+ueberzug
+ueberzug Downloads/wallpaper/anime-2310614-wallhere.com.jpg
+touch ~/.config/zsh/img_preview
+mv .config/zsh/img_preview .config/zsh/img_preview.zsh
+nvim .config/zsh/fzf.zsh 
+chmod +x ~/.config/zsh/img_preview.zsh
+Downloads/wallpaper/anime-2311310-wallhere.com.jpg 
+sudo nala search wet=zterm
+sudo nala search wetzterm
+sudo nala search weztterm
+sudo nala search wezterm
+sudo nala search kitty
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+sudo ln -sf ~/.local/kitty.app/bin/kitty /usr/local/bin/kitty
+sudo ln -sf ~/.local/kitty.app/bin/kitten /usr/local/bin/kitten
+sudo cp ~/.local/kitty.app/share/applications/kitty.desktop /usr/share/applications/
+sudo cp ~/.local/kitty.app/share/applications/kitty-open.desktop /usr/share/applications/
+sudo sed -i "s|Icon=kitty|Icon=/home/$USER/.local/kitty.app/share/icons/hicolor/256x256/apps/kitty.png|g" /usr/share/applications/kitty*.desktop
+sudo sed -i "s|Exec=kitty|Exec=/home/$USER/.local/kitty.app/bin/kitty|g" /usr/share/applications/kitty*.desktop
+echo 'kitty.desktop' | sudo tee /usr/share/xdg/xdg-terminals/kitty.desktop > /dev/null
+ln -sf ~/.local/kitty.app/bin/kitty ~/.local/bin/kitty
+ln -sf ~/.local/kitty.app/bin/kitten ~/.local/bin/kitten
+cp ~/.local/kitty.app/share/applications/kitty.desktop ~/.local/share/applications/
+cp ~/.local/kitty.app/share/applications/kitty-open.desktop ~/.local/share/applications/
+sed -i "s|Icon=kitty|Icon=/home/$USER/.local/kitty.app/share/icons/hicolor/256x256/apps/kitty.png|g" ~/.local/share/applications/kitty*.desktop
+sed -i "s|Exec=kitty|Exec=/home/$USER/.local/kitty.app/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
+echo 'kitty.desktop' > ~/.config/xdg-terminals.list
+kitty
+echo $PATH
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/kitty 50
+kitty +kitten themes
+nvim .config/.config/kitty/kitty.conf 
+kitty list-fonts --psnames
+nvim .config/kitty/kitty.conf 
+curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
+echo 'deb [signed-by=/usr/share/keyrings/wezterm-fury.gpg] https://apt.fury.io/wez/ * *' | sudo tee /etc/apt/sources.list.d/wezterm.list
+sudo apt update\
+
+sudo apt install wezterm\
+
+sudo nala search wezterm\
+
+sudo nala install wezterm
+wezterm
+ls -l /usr/bin | grep kitty
+git clone https://github.com/KevinSilvester/wezterm-config.git ~/.config/wezterm
+fastfetch
+ros2
+which ros2
+sudo nala search ros-jazzy-ros-base
+sudo nala install ros-jazzy-ros-base
+source /opt/ros/jazzy/setup.zsh
+nvim ~/.zshrc
+reload
+git clone https://github.com/yazi-rs/flavors.git
+cd flavors/ls
+cd flavors
+rm cspell.json
+rm LICENSE
+rm README.md
+rm package.json
+rm pnpm-lock.yaml
+rm scripts/*\ 
+rm -rf scripts
+mv flavors/* ~/.config/yazi/flavors
+builtin cd -- /home/orange/.config/yazi
+clear
+pwd
+ouch c wezterm
+ouch c wezterm wezterm.zip
+scp ~/.config/wezterm.zip apple@192.168.1.2:D:\ 
+ping 192.168.1.2
+scp ~/.config/wezterm.zip apple@192.168.1.2:/home/apple
+yazi
+cd Downloads
+builtin cd -- /home/orange/.config/wezterm
+cd ~
+nvim .config/wezterm/colors/custom.lua 
+git clone https://github.com/QianSong1/wezterm-config.git ~/.config
+git clone https://github.com/QianSong1/wezterm-config.git ~/.config/wezterm.bak
+cd ~/.config
+rm wezterm.zip
+cd wezterm.bak
+cd ..
+mv wezterm weztermk
+mv wezterm.bak wezterm
+mv wezterm weztermq
+mv weztermq wezterm
+rm -rf wezterm
+mv weztermk wezterm
+ls --color=auto
+ls 
+yy
+sudo nala update
+sudo nala upgrade
+ls
+: 1717595102:0;clear
+: 1717595130:0;ros2 run demo_nodes_cpp talker
+: 1717595165:0;bat ~/.config/wezterm/colors/custom.lua
+: 1717595171:0;cat ~/.config/wezterm/colors/custom.lua
+: 1717595205:0;which batcat
+: 1717595207:0;which bat
+: 1717595222:0;batcat --version
+: 1717595294:0;sudo ln -s /usr/bin/batcat /usr/local/bin/bat
+: 1717595298:0;bat
+: 1717595350:0;nvim .config/wezterm/colors/custom.lua 
+: 1717595377:0;ls
+: 1717595415:0;nvim ~/.zshrc
+: 1717595427:0;ls
+: 1717595434:0;echo $LS_COLORS
+: 1717595448:0;ls
+: 1717595454:0;echo $LS_COLORS
+: 1717595475:0;ls
+: 1717595477:0;cd Downloads
+: 1717595479:0;yy
+: 1717595519:0;cd Downloads
+: 1717595524:0;ouch d src.zip
+: 1717595525:0;ls
+: 1717595529:0;rm src.zip
+: 1717595536:0;ls
+: 1717595538:0;rm yazi-x86_64-unknown-linux-musl
+: 1717595540:0;rm yazi-x86_64-unknown-linux-musl -rf
+: 1717595543:0;rm yazi-x86_64-unknown-linux-musl.zip
+: 1717595544:0;ls
+: 1717595548:0;rm wallpaper.zip
+: 1717595549:0;ls
+: 1717595563:0;mv wallpaper/* ~/Pictures/Wallpaper
+: 1717595570:0;mkdir ~/Pictures/Wallpaper
+: 1717595571:0;mv wallpaper/* ~/Pictures/Wallpaper
+: 1717595572:0;ls
+: 1717595575:0;rm -rf wallpaper
+: 1717595581:0;rm -rf flavors
+: 1717595582:0;ls
+: 1717595587:0;rm MyConfig.zip
+: 1717595588:0;ls
+: 1717595596:0;cd ..
+: 1717595598:0;yy
+: 1717595639:0;nvim .config/zsh/zoxide.zsh 
+: 1717595665:0;nvim .config/zsh/alias.zsh 
+: 1717595672:0;clear
+: 1717595674:0;reload
+: 1717595676:0;yy
+: 1717595690:0;cd do
+: 1717595711:0;yy
+: 1717595716:0;ls
+: 1717595738:0;mv ~/Downloads/src/* ~/Workspace/ROS
+: 1717595739:0;ls
+: 1717595749:0;mkdir luminoviz
+: 1717595800:0;mv luminoviz_* luminoviz/
+: 1717595801:0;ls
+: 1717595807:0;mv luminoviz_* luminoviz/
+: 1717595814:0;ls
+: 1717595826:0;mv lunimoviz_* luminoviz/
+: 1717595828:0;ls
+: 1717595830:0;cd luminoviz
+: 1717595830:0;ls
+: 1717595835:0;colcon build
+: 1717595928:0;printenv | grep -i ROS
+: 1717595966:0;ros2 pkg executables turtlesim
+: 1717595976:0;ros2 run turtlesim turtlesim_node
+: 1717596370:0;sudo nala search python3-pip
+: 1717596473:0;sudo pip install rosdepc\
+
+: 1717596491:0;sudo apt install -y python3-pip
+: 1717596541:0;sudo pip3 install rosdepc
+: 1717596591:0;cd Workspace
+: 1717596592:0;ls
+: 1717596594:0;cd ROS
+: 1717596875:0;python3 -m venv venv_ros
+: 1717596883:0;ls
+: 1717596892:0;rm -rf venv_ros
+: 1717596893:0;rm -rf venv_ros2
+: 1717596898:0;python3 -m venv venv_ros
+: 1717596901:0;ls
+: 1717596908:0;source venv_ros/bin/activate
+: 1717596941:0;sudo pip3 install rosdepc
+: 1717596968:0;pip3 install rosdepc
+: 1717597000:0;sudo rosdepc init
+: 1717597005:0;rosdepc init
+: 1717597022:0;rosdepc update
+: 1717597091:0;sudo rosdepc init
+: 1717597120:0;rosdepc init
+: 1717597131:0;rosdepc update
+: 1717597149:0;sudo rosdep init
+: 1717597155:0;rosdep init
+: 1717597194:0;sudo -E rosdepc init
+: 1717597205:0;deactivate
+: 1717597208:0;ls
+: 1717597223:0;sudo pip3 install rosdepc
+: 1717597306:0;sudo rosdepc init
+: 1717597312:0;rosdepc update
+: 1717597324:0;ls
+: 1717597327:0;cd luminoviz
+: 1717597328:0;ls
+: 1717597338:0;rosdepc install -i --from-path src --rosdistro jazzy -y
+: 1717597347:0;ls
+: 1717597350:0;cd ..
+: 1717597358:0;cd luminoviz
+: 1717597361:0;mkdir src
+: 1717597367:0;mv lunimoviz_* src/
+: 1717597376:0;ls
+: 1717597378:0;cd src
+: 1717597379:0;ls
+: 1717597381:0;cd ..
+: 1717597389:0;mv luminoviz_* src/
+: 1717597390:0;ls
+: 1717597398:0;rosdepc install -i --from-path src --rosdistro jazzy -y
+: 1717597445:0;cd ..
+: 1717597450:0;cd Test
+: 1717597457:0;mkdir
+: 1717597460:0;mkdir Test
+: 1717597462:0;cd Test
+: 1717597465:0;mkdir src
+: 1717597482:0;ls
+: 1717597490:0;rosdepc install -i --from-path src --rosdistro jazzy -y
+: 1717597494:0;ls
+: 1717597514:0;sudo nala search python3-colcon
+: 1717597534:0;sudo apt install python3-colcon-ros
+: 1717597586:0;cd ..
+: 1717597596:0;z ROS/luminoviz
+: 1717597597:0;ls
+: 1717597601:0;colcon build
+: 1717597874:0;sudo apt install libignition-math6-dev
+: 1717597968:0;sudo apt install ros-jazzy-serial-driver
+: 1717597996:0;colcon build
+: 1717598096:0;sudo apt search ros-jazzy-udp-driver
+: 1717598105:0;sudo apt install ros-jazzy-udp-driver
+: 1717598142:0;colcon build
+: 1717598352:0;cd ..
+: 1717598354:0;git clone https://github.com/ignitionrobotics/ign-math.git -b ign-math6
+: 1717598363:0;cd ign-math
+: 1717598368:0;mkdir build
+: 1717598373:0;cd build
+: 1717598378:0;cmake ..
+: 1717598619:0;sudo apt search ignition-math6
+: 1717598639:0;rosdepc install ignition-math6
